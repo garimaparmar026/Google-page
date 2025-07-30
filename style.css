@@ -4,12 +4,11 @@
 
 body{
     display: flex;
-   
     flex-direction: column;
     height: 100vh;
 } 
 
-
+/*Header*/
 .header {
    display: flex;
    justify-content: space-between;
@@ -40,18 +39,20 @@ body{
     margin-right: 10px;
 }
  
-.mainBody {
+/*Main Body*/
+.Googlemain {
     flex: 1;
     display: flex;
     margin-top: 12%;
     flex-direction: column;
 }
 
-.mainBody img {
+.Googlemain img {
     object-fit: contain;
     height: 100px;
 }
 
+/*Input*/
 .search__input{
     display: flex;
     align-items: center;
@@ -72,10 +73,7 @@ body{
     outline: none;
 }
 
-search__input .material-symbols-outlined{
-    color: gray;
-}
-
+/*buttons*/
 .search__buttons{
     margin-top: 30px;
     display: flex;
@@ -85,7 +83,7 @@ search__input .material-symbols-outlined{
 .search__buttons button{
     margin: 5px;
     padding: 10px 15px;
-    background-color: #f8f8f8;
+    background-color: #f7f7f7;
     outline: none;
     border: none;
     cursor: pointer;
